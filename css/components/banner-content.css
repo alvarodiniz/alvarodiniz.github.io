@@ -8,6 +8,17 @@
     left: 300px;
   }
 
+  .main-title {
+    font-size: 150px;
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  .main-subtitle {
+    font-size: 50px;
+    color: white;      
+}
+
   .banner-content .slogan {
     margin-top: 100px;
     color: white;
@@ -18,7 +29,7 @@
   }
 
 .banner-content .main-button {
-    margin-top: 110px;
+    margin-top: 90px;
     background-color: rgb(128, 219, 169);
     color: white;
     display: flex;

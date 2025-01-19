@@ -56,6 +56,7 @@ header {
 .main-footer .footer-content div {
     display: flex;
     flex-direction: column;
+    color: rgb(128, 219, 169);
 }
 
 .main-footer .footer-content div a {

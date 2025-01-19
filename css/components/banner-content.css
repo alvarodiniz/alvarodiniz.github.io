@@ -1,0 +1,31 @@
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+  }
+
+  .banner-content .slogan {
+    margin-top: 100px;
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    word-spacing: 12px;
+    letter-spacing: 12px;
+  }
+
+.banner-content .main-button {
+    margin-top: 110px;
+    background-color: rgb(128, 219, 169);
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+

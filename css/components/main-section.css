@@ -1,0 +1,11 @@
+.main-section {
+
+}
+
+.main-section.-sobre {
+    background-color: rgb(209, 209, 209);
+    padding: 100px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

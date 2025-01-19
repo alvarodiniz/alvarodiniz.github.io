@@ -1,0 +1,43 @@
+.main-menu {
+    display: flex;
+    height: 70px;
+    background-color: rgb(235, 235, 235);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+}
+
+.main-button {
+    position: relative;
+    height: 55px;
+    line-height: 55px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    overflow: hidden;
+}
+
+.main-button:hover {
+    color: rgb(111, 204, 168);
+}
+
+.main-button:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: center;
+    background: white;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .main-button:hover:before {
+    transform: scaleX(1);
+    width: 100%;
+    transform-origin: center;
+  }

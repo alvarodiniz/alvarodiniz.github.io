@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="css/components/content-sobre.css">
   <link rel="stylesheet" href="css/components/service-carousel.css">
   <link rel="stylesheet" href="css/components/service-card.css">
+  <link rel="stylesheet" href="css/components/tratamentos-section.css">
+  <link rel="stylesheet" href="css/components/main-form.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,63 +69,60 @@
   </section>
 
   <section class="main-section -tratamentos">
+    <h2 class="main-subtitle">TRATAMENTOS</h2>
+
     <div class="service-carousel">
       <div class="track">
         <article class="service-card">
           <div class="content">
-            <h3 class="title">UI/UX Design</h3>
+            <h3 class="title">Terapia comportamental</h3>
             <div class="cards">
-              <div class="card3"></div>
-              <div class="card2"></div>
-              <div class="card1"></div>
+
             </div>
           </div>
-          <div class="icon"></div>
+          <div class="card-button">AGENDAR</div>
         </article>
+
         <article class="service-card">
           <div class="content">
-            <h3 class="title">Web Design</h3>
+            <h3 class="title">Psicanálise</h3>
             <div class="cards">
-              <div class="card3"></div>
-              <div class="card2"></div>
-              <div class="card1"></div>
+
             </div>
           </div>
-          <div class="icon"></div>
+          <div class="card-button">AGENDAR</div>
         </article>
+
         <article class="service-card">
           <div class="content">
-            <h3 class="title">Landing Page Design</h3>
+            <h3 class="title">Gestalt</h3>
             <div class="cards">
-              <div class="card3"></div>
-              <div class="card2"></div>
-              <div class="card1"></div>
+
             </div>
           </div>
-          <div class="icon"></div>
+          <div class="card-button">AGENDAR</div>
         </article>
+
         <article class="service-card">
           <div class="content">
-            <h3 class="title">Mobile App Design</h3>
+            <h3 class="title">Ansiedade</h3>
             <div class="cards">
-              <div class="card3"></div>
-              <div class="card2"></div>
-              <div class="card1"></div>
+
             </div>
           </div>
-          <div class="icon"></div>
+          <div class="card-button">AGENDAR</div>
         </article>
+
         <article class="service-card">
           <div class="content">
-            <h3 class="title">E-commerce Design</h3>
+            <h3 class="title">Depressão</h3>
             <div class="cards">
-              <div class="card3"></div>
-              <div class="card2"></div>
-              <div class="card1"></div>
+
             </div>
           </div>
-          <div class="icon"></div>
+          <div class="card-button">AGENDAR</div>
         </article>
+
       </div>
       <div class="carousel-indicators">
         <!-- As bolinhas serão adicionadas dinamicamente pelo JavaScript -->
@@ -131,6 +130,52 @@
     </div>
 
   </section>
+
+  <footer id="contact" class="main-footer">
+    <div class="title">
+      <h2 class="main-subtitle">Entre em contato!</h2>
+      <a href="" class="main-button">AGENDAR</a>
+    </div>
+    <div class="content-wrapper">
+      <form id="main-form" action="" method="post" class="main-form">
+        <div class="form-item -name">
+          <label for="name">Nome</label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-item -email">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-item -msg">
+          <label for="mensagem">Mensagem</label>
+          <textarea name="mensagem" id="mensagem" required></textarea>
+        </div>
+        <button type="submit" class="main-button">Enviar</button>
+      </form>
+
+      <div class="footer-content">
+
+        <div>
+          <h4 class="orange-text">Navegação</h4>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Services</a>
+          <a href="">Resume</a>
+          <a href="">Project</a>
+        </div>
+        <div>
+          <h4 class="orange-text">Contatos</h4>
+          <a href="">(31)12345-6789</a>
+          <a href="">emaildoportifolio@gmail.com</a>
+          <a href="">Link do site Portifolio</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p class="main-text"></p>
+      <p class="main-text"></p>
+    </div>
+  </footer>
 
   <script src="JS/service-carousel.js"></script>
 </body>

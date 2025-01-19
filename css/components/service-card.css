@@ -5,22 +5,21 @@
     height: 508px;
     background-color: #6868684d;
     backdrop-filter: blur(8px);
-    border-radius: 35px;
+    border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border: 1.5px solid rgba(255, 255, 255, 0.507);
   }
   
   /* Bolinha */
-  .service-card::before {
+  .service-card .card-button {
     content: "";
     position: absolute;
     bottom: 20px;
     right: 20px;
-    width: 60px;
-    height: 60px;
-    background-color: #f4f4f4; /* Mesma cor do fundo */
-    border-radius: 50%; /* Faz o recorte circular */
+    padding: 20px 40px;
+    background-color: rgb(128, 219, 169); 
+    color: white;
     z-index: 1;
   }
   
@@ -35,6 +34,8 @@
   }
   
   .service-card .content .title {
+    font-family: 'Oswald' , sans-serif;
+    font-weight: 300;
     font-size: 32px;
     color: white;
     height: 100px;
@@ -62,36 +63,4 @@
     justify-content: center;
     align-items: end;
     bottom: 0;
-  }
-
-  .service-card .cards .card1 {
-    position: absolute;
-    bottom: -20px;
-    width: 418px;
-    height: 307px;
-    z-index: 5;
-    background-image: url(../../assets/img/Rectangle\ 7.png);
-    border-radius: 35px;
-  }
-
-  .service-card .cards .card2 {
-    position: absolute;
-    bottom: 209px;
-    width: 375px;
-    height: 100px;
-    z-index: 4;
-    background-color: #747272a4;
-    backdrop-filter: blur(8px);
-    border-radius: 35px;
-  }
-
-  .service-card .cards .card3 {
-    position: absolute;
-    bottom: 230px;
-    width: 320px;
-    height: 100px;
-    z-index: 3;
-    background-color: #5f5e5e54;
-    backdrop-filter: blur(8px);
-    border-radius: 35px;
   }

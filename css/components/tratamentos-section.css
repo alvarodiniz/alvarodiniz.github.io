@@ -1,0 +1,13 @@
+.-tratamentos {
+
+}
+
+.-tratamentos .main-subtitle {
+    line-height: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    font-size: 40px;
+    border-bottom:  3px solid rgb(128, 219, 169);
+    margin-bottom: 60px;
+}

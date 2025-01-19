@@ -1,0 +1,7 @@
+.banner-section {
+    background-image: url(../../assets/img/cortina.gif);
+    background-position: 0 -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}

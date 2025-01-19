@@ -9,3 +9,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.main-section.-tratamentos {
+    background-color: rgb(128, 219, 169);
+    padding: 100px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

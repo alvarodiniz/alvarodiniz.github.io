@@ -4,17 +4,17 @@
     align-items: center;
     z-index: 1;
     position: absolute;
-    top: 200px;
+    top: 230px;
     left: 220px;
   }
 
-  .main-title {
+  .banner-content .main-title {
     font-size: 150px;
     color: white;
     margin-bottom: 15px;
   }
 
-  .main-subtitle {
+  .banner-content .main-subtitle {
     font-size: 50px;
     color: white;      
 }

@@ -1,12 +1,13 @@
 .main-menu {
     display: flex;
     height: 70px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgba(235, 235, 235, 0.11);
     justify-content: center;
     align-items: center;
     gap: 20px;
     position: fixed;
     width: 100%;
+    backdrop-filter: blur(7px);
 }
 
 .main-button {
@@ -18,22 +19,23 @@
     text-align: center;
     width: 200px;
     overflow: hidden;
+    color: white;
 }
 
 .main-button:hover {
-    color: rgb(111, 204, 168);
+    color: white;
 }
 
 .main-button:before {
     content: "";
     position: absolute;
-    height: 2px;
+    height: 3px;
     bottom: 0;
     left: 0;
     width: 100%;
     transform: scaleX(0);
     transform-origin: center;
-    background: white;
+    background: rgb(111, 204, 168);
     transition: transform 0.25s ease-out;
   }
   

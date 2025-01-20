@@ -1,0 +1,49 @@
+.content-atendimento {
+    display: flex;
+    gap: 20px;
+}
+
+.content-atendimento .atendimento-text {
+    width: 600px;
+    color: white;
+    font-size: 28px;
+    line-height: 32px;
+    
+}
+
+.content-atendimento .atendimento-text ul {
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.content-atendimento .atendimento-text ul li {
+    margin-bottom: 15px;
+}
+
+.content-atendimento .atendimento-text p {
+    font-family: 'Oswald' , sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.content-atendimento img {
+    width: 600px;
+}
+
+.content-atendimento .atendimento-text .main-button {
+    background-color: white;
+    color: rgb(128, 219, 169);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    line-height: 60px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-atendimento .atendimento-text .main-button::before {
+    background-color: rgb(128, 219, 169);
+  }

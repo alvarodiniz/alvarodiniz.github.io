@@ -23,11 +23,11 @@
     color: black;
     font-size: 40px;
     border-bottom:  2px solid rgb(128, 219, 169);
+    margin-bottom: 50px;
 }
 
 .content-sobre .text-sobre p {
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 18px;
     color: rgb(51, 51, 51);
     text-align: justify;
     line-height: 25px;
@@ -37,6 +37,7 @@
 .content-sobre .text-sobre .main-button {
     float: right;
     color: rgb(128, 219, 169);
+    margin-top: 35px;
 }
 
 .content-sobre .text-sobre .main-button:hover {

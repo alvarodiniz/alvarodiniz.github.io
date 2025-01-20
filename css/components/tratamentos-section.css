@@ -11,3 +11,15 @@
     border-bottom:  3px solid rgb(128, 219, 169);
     margin-bottom: 60px;
 }
+
+.-tratamentos p {
+    display: inline-flex;
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 100;
+    width: 1200px;
+    text-align: justify;
+    line-height: 45px;
+    margin-bottom: 50px;
+}

@@ -8,6 +8,7 @@
     position: fixed;
     width: 100%;
     backdrop-filter: blur(7px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.103);
 }
 
 .main-button {

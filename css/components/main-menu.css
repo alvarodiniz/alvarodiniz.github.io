@@ -36,7 +36,7 @@
     width: 100%;
     transform: scaleX(0);
     transform-origin: center;
-    background: rgb(111, 204, 168);
+    background: white;
     transition: transform 0.25s ease-out;
   }
   

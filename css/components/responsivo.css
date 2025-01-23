@@ -74,7 +74,7 @@
 
     .banner-section .banner-content {
         position: absolute;
-        top: 50vw;
+        top: 30vh;
         left: 5vw;
         width: 90vw;
     }
@@ -92,5 +92,8 @@
         text-align: center;
     }
 
+    .banner-section .banner-carousel {
+        top: 90vh;
+    }
 
 }

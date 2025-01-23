@@ -46,3 +46,7 @@
     width: 100%;
     transform-origin: center;
   }
+
+  .main-menu.hidden {
+    transform: translateY(-100%); /* Esconde o menu */
+  }

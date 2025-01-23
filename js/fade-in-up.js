@@ -15,8 +15,8 @@ window.addEventListener('scroll', revealElements);
 window.addEventListener('load', revealElements);
 
 
-// Seleciona todos os elementos que têm a classe fade-in-up -element
-const nontextelementsToReveal = document.querySelectorAll('.fade-in-up.-element');
+// Seleciona todos os elementos que têm a classe fade-in-up -first
+const nontextelementsToReveal = document.querySelectorAll('.fade-in-up.-first');
 
 const revealnontextElements = () => {
     nontextelementsToReveal.forEach(element => {

@@ -1,0 +1,64 @@
+/* From Uiverse.io by SivarajRathinam */ 
+.accordion {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .accordion-item {
+    margin-bottom: 5px;
+  }
+  
+  .accordion-item .content {
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 37px;
+    text-align: justify;
+    
+  }
+  
+  .accordion input[type="radio"] {
+    display: none;
+  }
+  
+  .accordion .content {
+    height: 0px;
+    padding: 0px;
+    background-color: #fafafa;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    
+  }
+
+  .accordion input[type="radio"]:checked + .accordion-header + .content {
+    height: auto;
+    padding: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .accordion-icon {
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  .accordion input[type="radio"]:checked + .accordion-header .accordion-icon {
+    transform: rotate(180deg);
+  }
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+  }
+  .accordion-header .accordion-title {
+    font-size: 25px;
+    font-family: 'Oswald' , serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  

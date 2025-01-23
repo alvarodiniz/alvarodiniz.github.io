@@ -1,7 +1,7 @@
 @media screen and (min-width: 1500px) {
     header .open-menu {
         display: none;
-    }    
+    }
 
     header .main-menu .close-menu {
         display: none;
@@ -66,7 +66,7 @@
         align-items: center;
     }
 
-    
+
 
     .banner-section .quote {
         display: none;
@@ -85,7 +85,7 @@
 
     .banner-section .banner-content .main-subtitle {
         font-size: 8vw;
-    } 
+    }
 
     .banner-section .banner-content .slogan {
         font-size: 5vw;
@@ -96,4 +96,73 @@
         top: 90vh;
     }
 
+    .main-section {
+        width: 100vw;
+        padding: 0vw;
+    }
+
+    .content-sobre {
+        margin-top: 40vh;
+        flex-direction: column;
+    }
+
+    .content-sobre .photo {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 7vw;
+        left: 20vw;
+    }
+
+    .content-sobre .text-sobre {
+
+        box-sizing: border-box;
+        width: 95vw;
+        padding: 7vw;
+        padding-top: 38vh;
+        background-color: white;
+        margin-bottom: 5vh;
+    }
+
+    .-atendimento {
+        padding: 5vw;
+        padding-top: 10vh;
+        box-sizing: border-box;
+        width: 100vw;
+    }
+
+    .-atendimento h3 {
+        width: 90vw;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .content-atendimento {
+        flex-direction: column-reverse;
+        padding: 10vw;
+        align-items: center;
+    }
+
+    .content-atendimento .atendimento-text {
+        width: 90vw;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        padding-left: 10vw;
+    }
+
+    .content-atendimento img {
+        width: 80vw;
+    }
+
+    .content-atendimento .atendimento-text ul {
+        width: 80vw;
+        text-align: justify;
+        list-style-position: outside;
+        
+    }
+
+    .content-atendimento .atendimento-text .main-button {
+        transform: translateX(-4vw) ;
+    }
 }

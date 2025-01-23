@@ -5,12 +5,13 @@ header {
     z-index: 100;
     display: flex;
     justify-content: center;
+    
 }
 
 .main-footer {
     background-color: rgb(92 92 92);
     padding: 60px;
-
+    overflow: hidden;
 }
 
 .main-footer .title {
@@ -96,7 +97,7 @@ header {
 }
 
 .fade-in-first.-menu {
-    transition-delay: 3.6s;
+    
 }
 
 .fade-in-first.-delayCarousel {

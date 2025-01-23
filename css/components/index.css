@@ -92,15 +92,15 @@ header {
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.9s ease, transform 0.9s ease;
-    transition-delay: 5s;
+    transition-delay: 4s;
 }
 
 .fade-in-first.-menu {
-    transition-delay: 4.6s;
+    transition-delay: 3.6s;
 }
 
 .fade-in-first.-delayCarousel {
-    transition-delay: 5.25s;
+    transition-delay: 4.25s;
 }
 
 .fade-in-up.visible {

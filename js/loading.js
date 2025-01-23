@@ -11,6 +11,6 @@ window.addEventListener("load", function () {
         setTimeout(function () {
             loader.classList.add('hidden');
             loaderBg.classList.add('hidden');
-        }, 2000); // Aguarda o tempo da transição (2s)
-    }, 4000); // Mantém o loader visível por 4 segundos antes de iniciar a transição
+        }, 1500); // Aguarda o tempo da transição (2s)
+    }, 2500); // Mantém o loader visível por 4 segundos antes de iniciar a transição
 });

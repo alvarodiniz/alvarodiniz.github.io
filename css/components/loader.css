@@ -6,7 +6,7 @@
     justify-content: center;
     z-index: 200;
     position: fixed;
-    background-color: white;
+    background-color: rgb(216, 197, 161);
     transition: opacity 2s ease; /* Transição mais longa para o fundo */
     opacity: 1;
 }

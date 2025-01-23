@@ -5,51 +5,55 @@
     height: 508px;
     background-color: #6868684d;
     backdrop-filter: blur(8px);
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border: 1.5px solid rgba(255, 255, 255, 0.507);
-  }
-  
-  /* Bolinha */
-  .service-card .card-button {
+}
+
+.service-card:hover {
+    cursor: grab;
+}
+
+/* Bolinha */
+.service-card .card-button {
     position: absolute;
     bottom: 20px;
     right: 20px;
     padding: 20px 40px;
-    background-color: rgb(128, 219, 169); 
+    background-color: rgb(128, 219, 169);
     color: white;
     z-index: 3;
-  }
+}
 
-  .service-card .card-button:hover {
+.service-card .card-button:hover {
     background-color: rgb(245, 245, 245);
     color: rgb(128, 219, 169);
-  }
-  
-  /* Conteúdo da card */
-  .service-card .content {
+}
+
+/* Conteúdo da card */
+.service-card .content {
     display: flex;
     position: relative;
     padding: 20px;
     height: 100%;
     box-sizing: border-box;
     flex-direction: column;
-  }
-  
-  .service-card .content .title {
-    font-family: 'Oswald' , sans-serif;
+}
+
+.service-card .content .title {
+    font-family: 'Oswald', sans-serif;
     font-weight: 300;
     font-size: 32px;
-    color: white;
+    color: rgb(255, 255, 255);
     height: 100px;
     line-height: 85px;
     box-sizing: border-box;
     padding-bottom: 11px;
-    
-  }
+    z-index: 5;
+}
 
-  .service-card .content .title::after {
+.service-card .content .title::after {
     position: absolute;
     top: 120px;
     left: 0;
@@ -57,14 +61,19 @@
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.507);
     height: 0;
     width: 100%;
-  }
-  
-  .service-card .cards {
-    position: relative;
+}
+
+.service-card .cards {
+    position: absolute;
     height: 100%;
+    width: 100%;
     z-index: 3;
     display: flex;
     justify-content: center;
     align-items: end;
     bottom: 0;
-  }
+    left: 0;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.308),
+            rgba(255, 255, 255, 0))
+}

@@ -1,12 +1,13 @@
 .main-menu {
     display: flex;
-    height: 70px;
-    background-color: rgba(235, 235, 235, 0.11);
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.966);
     justify-content: center;
     align-items: center;
     gap: 20px;
     position: fixed;
-    width: 100%;
+    width: 80%;
+    border-radius: 15px;
     backdrop-filter: blur(7px);
     border-bottom: 2px solid rgba(255, 255, 255, 0.103);
 }
@@ -20,11 +21,11 @@
     text-align: center;
     width: 200px;
     overflow: hidden;
-    color: white;
+    color: rgb(41, 41, 41);
 }
 
 .main-button:hover {
-    color: white;
+    color: rgb(59, 59, 59);
 }
 
 .main-button:before {
@@ -36,7 +37,7 @@
     width: 100%;
     transform: scaleX(0);
     transform-origin: center;
-    background: white;
+    background: rgb(128, 219, 169);
     transition: transform 0.25s ease-out;
   }
   

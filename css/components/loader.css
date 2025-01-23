@@ -1,0 +1,30 @@
+.loader-bg {
+    display: flex;
+    min-height: 950px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    position: fixed;
+    background-color: white;
+    transition: opacity 2s ease; /* Transição mais longa para o fundo */
+    opacity: 1;
+}
+
+.loader {
+    font-weight: 500;
+    display: inline-grid;
+    font-size: 30px;
+    transition: display 0.9s ease;
+    transition: opacity 2s ease; /* Transição mais longa (2s) */
+    opacity: 1; /* Inicialmente visível */
+  }
+
+.invisible {
+    opacity: 0; /* Torna o elemento invisível */
+    pointer-events: none; /* Impede interação com o loader */
+}
+
+.hidden {
+    display: none; /* Remove o elemento do fluxo do documento */
+}

@@ -1,6 +1,10 @@
 header {
     position: fixed;
+    top: 25px;
+    width: 100%;
     z-index: 100;
+    display: flex;
+    justify-content: center;
 }
 
 .main-footer {
@@ -69,4 +73,42 @@ header {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+    transition-delay: 0.5s;
+}
+
+.fade-in-up.-element {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.fade-in-first {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+    transition-delay: 5s;
+}
+
+.fade-in-first.-menu {
+    transition-delay: 4.6s;
+}
+
+.fade-in-first.-delayCarousel {
+    transition-delay: 5.25s;
+}
+
+.fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-in-first.visible {
+    opacity: 1;
+    transform: translateY(0);
 }

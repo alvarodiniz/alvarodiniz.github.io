@@ -67,7 +67,10 @@
     }
 
 
-
+    .banner-section {
+        align-items: center;
+        justify-content: center;
+    }
     .banner-section .quote {
         display: none;
     }
@@ -94,6 +97,9 @@
 
     .banner-section .banner-carousel {
         top: 85vh;
+        width: 98vw;
+        position: absolute;
+        left: 1vw;
     }
 
     .main-section {

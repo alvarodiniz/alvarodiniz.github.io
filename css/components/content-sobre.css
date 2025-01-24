@@ -24,7 +24,14 @@
     padding-left: 120px;
     padding-right: 100px;
     background-color: white;
-    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-sobre .text-sobre .main-subtitle.-crp {
+    font-size: 25px;
+    border-bottom: none;
 }
 
 .content-sobre .text-sobre .main-subtitle {
@@ -35,7 +42,7 @@
     color: black;
     font-size: 50px;
     border-bottom:  2px solid rgb(128, 219, 169);
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .content-sobre .text-sobre p {

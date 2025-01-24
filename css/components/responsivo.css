@@ -74,7 +74,7 @@
 
     .banner-section .banner-content {
         position: absolute;
-        top: 30vh;
+        top: 25vh;
         left: 5vw;
         width: 90vw;
     }
@@ -93,7 +93,7 @@
     }
 
     .banner-section .banner-carousel {
-        top: 90vh;
+        top: 85vh;
     }
 
     .main-section {
@@ -122,6 +122,11 @@
         padding-top: 38vh;
         background-color: white;
         margin-bottom: 5vh;
+        line-height: 15vh;
+    }
+
+    .content-sobre .text-sobre p {
+        line-height: 4vh;
     }
 
     .-atendimento {
@@ -138,8 +143,10 @@
     }
 
     .content-atendimento {
+        width: 95vw;
+        box-sizing: border-box;
         flex-direction: column-reverse;
-        padding: 10vw;
+        padding: 5vw;
         align-items: center;
     }
 
@@ -149,6 +156,7 @@
         flex-direction: column;
         display: flex;
         padding-left: 10vw;
+        line-height: 4vh;
     }
 
     .content-atendimento img {
@@ -159,10 +167,71 @@
         width: 80vw;
         text-align: justify;
         list-style-position: outside;
-        
+        line-height: 4vh;
     }
 
     .content-atendimento .atendimento-text .main-button {
         transform: translateX(-4vw) ;
     }
+
+    .-FAQ {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+
+    }
+
+    .-FAQ .main-subtitle {
+        margin-bottom: 7vw;
+    }
+
+    .accordion {
+        width: 95vw;
+        margin: 0 auto;
+      }
+    
+      .accordion input[type="radio"]:checked + .accordion-header + .content {
+        padding: 5vw;
+      }
+
+      .-tratamentos {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+      }
+    
+      .-tratamentos p {
+        width: 90vw;
+        line-height: 7.5vw;
+        text-align: justify;
+      }
+    
+    .main-footer {
+        width: 100vw;
+        box-sizing: border-box;
+        padding: 5vw;
+    }
+
+    .main-footer .title {
+        flex-direction: column;
+        gap: 7vw;
+    }
+
+    .main-footer .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 95vw;
+        box-sizing: border-box;
+    }
+
+    .main-footer .main-form {
+        width: 90vw;
+    }
+
+    .main-footer .footer-content {
+        width: 90vw;
+        padding: 5vw;
+        box-sizing: border-box;
+        
+    }
+
+
 }

@@ -28,7 +28,7 @@
     border-top: 1px solid #ccc;
     overflow: hidden;
     transition: all 0.3s ease;
-    
+    font-family: serif;
   }
 
   .accordion input[type="radio"]:checked + .accordion-header + .content {

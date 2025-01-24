@@ -45,12 +45,14 @@
     line-height: 25px;
     font-size: 28px;
     font-weight: 350;
+    font-family: serif;
 }
 
 .content-sobre .text-sobre .main-button {
     float: right;
     color: rgb(128, 219, 169);
     margin-top: 35px;
+    
 }
 
 .content-sobre .text-sobre .main-button:hover {

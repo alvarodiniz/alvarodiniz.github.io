@@ -14,6 +14,7 @@
 .content-atendimento .atendimento-text ul {
     list-style: circle;
     list-style-position: inside;
+    font-family: serif;
 }
 
 .content-atendimento .atendimento-text ul li {
@@ -21,7 +22,7 @@
 }
 
 .content-atendimento .atendimento-text p {
-    font-family: 'Oswald' , sans-serif;
+    font-family: serif;
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 10px;

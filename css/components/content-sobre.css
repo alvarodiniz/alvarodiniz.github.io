@@ -16,6 +16,17 @@
     top: 35px;
 }
 
+.content-sobre .photo-mobile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(../../assets/img/photo-alvaro.webp);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: -25px 0;
+    display: none;
+}
+
 .content-sobre .text-sobre {
     box-sizing: border-box;
     width: 950px;

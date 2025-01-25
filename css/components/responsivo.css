@@ -109,22 +109,26 @@
 
     .content-sobre {
         flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .content-sobre .photo {
         width: 250px;
         height: 250px;
-        position: absolute;
-        top: 7vw;
-        left: 20vw;
+        display: none;
+    }
+
+    .content-sobre .photo-mobile {
+        display: block;
     }
 
     .content-sobre .text-sobre {
-
+        align-items: center;
         box-sizing: border-box;
         width: 93vw;
         padding: 7vw;
-        padding-top: 38vh;
         background-color: white;
         margin-bottom: 5vh;
         margin-top: 5vh;

@@ -146,11 +146,8 @@
     }
 
     .-atendimento h3 {
-        width: 90vw;
         text-align: center;
         margin-bottom: 0;
-        z-index: 1;
-        color: black;
     }
 
     .content-atendimento {
@@ -171,23 +168,15 @@
 
     }
 
-    .content-atendimento img {
-        width: 100vw;
-        position: absolute;
-        top: -30vw;
-        z-index: 0;
-    }
-
     .content-atendimento .atendimento-text ul {
         width: 80vw;
         text-align: justify;
         list-style-position: outside;
         line-height: 4vh;
         font-family: 'Oswald', sans-serif;
-        font-weight: 300;
         font-size: 4.5vw;
         line-height: 5vw;
-        margin-top: 105vw;
+        margin-top: 2vw;
     }
 
     .content-atendimento .atendimento-text .main-button {

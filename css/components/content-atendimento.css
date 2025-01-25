@@ -14,7 +14,7 @@
 .content-atendimento .atendimento-text ul {
     list-style: circle;
     list-style-position: inside;
-    font-family: serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .content-atendimento .atendimento-text ul li {
@@ -22,14 +22,18 @@
 }
 
 .content-atendimento .atendimento-text p {
-    font-family: serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    font-weight: 300;
     margin-bottom: 10px;
 }
 
-.content-atendimento img {
-    width: 600px;
+.main-section.-atendimento .atendimento-online {
+    height: 400px;
+    background-image: url(../../assets/img/sala\ de\ casa.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
 }
 
 .content-atendimento .atendimento-text .main-button {

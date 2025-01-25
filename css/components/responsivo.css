@@ -71,13 +71,14 @@
         align-items: center;
         justify-content: center;
     }
+
     .banner-section .quote {
         display: none;
     }
 
     .banner-section .banner-content {
         position: absolute;
-        top: 40vw;
+        top: 30vh;
         left: 5vw;
         width: 90vw;
     }
@@ -93,15 +94,14 @@
     .banner-section .banner-content .slogan {
         font-size: 5vw;
         text-align: center;
-        font-family: 'Oswald' , sans-serif;
+        font-family: 'Oswald', sans-serif;
     }
 
     .banner-section .banner-carousel {
-        top: 150vw;
         width: 98vw;
-        position: absolute;
+        top: 90vh;
         left: 1vw;
-        z-index: 3;
+        transition: all 0s linear;
     }
 
     .main-section {
@@ -134,10 +134,10 @@
     }
 
     .content-sobre .text-sobre p {
-            font-size: 3vw;
-            line-height: 4.5vw;
-            font-family: 'Oswald', sans-serif;
-            font-weight: 300;
+        font-size: 4.5vw;
+        line-height: 5vw;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
     }
 
     .-atendimento {
@@ -152,7 +152,7 @@
         text-align: center;
         margin-bottom: 0;
         z-index: 1;
-        color:black;
+        color: black;
     }
 
     .content-atendimento {
@@ -187,13 +187,13 @@
         line-height: 4vh;
         font-family: 'Oswald', sans-serif;
         font-weight: 300;
-        font-size: 3vw;
-        line-height: 4.5vw;
+        font-size: 4.5vw;
+        line-height: 5vw;
         margin-top: 105vw;
     }
 
     .content-atendimento .atendimento-text .main-button {
-        transform: translateX(-4vw) ;
+        transform: translateX(-4vw);
     }
 
     .-FAQ {
@@ -209,31 +209,31 @@
     .accordion {
         width: 95vw;
         margin: 0 auto;
-      }
-    
-      .accordion input[type="radio"]:checked + .accordion-header + .content {
+    }
+
+    .accordion input[type="radio"]:checked+.accordion-header+.content {
         padding: 5vw;
         font-family: 'Oswald', sans-serif;
         font-weight: 300;
-        font-size: 3vw;
-        line-height: 4.5vw;
-      }
+        font-size: 4.5vw;
+        line-height: 5vw;
+    }
 
-      .-tratamentos {
+    .-tratamentos {
         padding-top: 10vw;
         padding-bottom: 10vw;
-      }
-    
-      .-tratamentos p {
+    }
+
+    .-tratamentos p {
         width: 90vw;
         line-height: 7.5vw;
         text-align: justify;
         font-family: 'Oswald', sans-serif;
         font-weight: 300;
-        font-size: 3vw;
-        line-height: 4.5vw;
-      }
-    
+        font-size: 4.5vw;
+        line-height: 5vw;
+    }
+
     .main-footer {
         width: 100vw;
         box-sizing: border-box;
@@ -260,7 +260,7 @@
         width: 90vw;
         padding: 5vw;
         box-sizing: border-box;
-        
+
     }
 
 }

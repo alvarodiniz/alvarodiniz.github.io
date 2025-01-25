@@ -93,6 +93,7 @@
     .banner-section .banner-content .slogan {
         font-size: 5vw;
         text-align: center;
+        font-family: 'Oswald' , sans-serif;
     }
 
     .banner-section .banner-carousel {
@@ -132,7 +133,9 @@
     }
 
     .content-sobre .text-sobre p {
-        line-height: 4vh;
+            font-size: 5vw;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 300;
     }
 
     .-atendimento {
@@ -174,6 +177,9 @@
         text-align: justify;
         list-style-position: outside;
         line-height: 4vh;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        font-size: 5vw;
     }
 
     .content-atendimento .atendimento-text .main-button {
@@ -197,6 +203,9 @@
     
       .accordion input[type="radio"]:checked + .accordion-header + .content {
         padding: 5vw;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        font-size: 5vw;
       }
 
       .-tratamentos {
@@ -208,6 +217,9 @@
         width: 90vw;
         line-height: 7.5vw;
         text-align: justify;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        font-size: 5vw;
       }
     
     .main-footer {
@@ -238,6 +250,5 @@
         box-sizing: border-box;
         
     }
-
 
 }

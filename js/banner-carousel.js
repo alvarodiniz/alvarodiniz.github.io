@@ -61,6 +61,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Drag functionality
     const handleTouchStart = (e) => {
+        if (e.target.tagName === "A") return; // Ignore drag start on links
+
         isDragging = true;
         startX = e.type.includes("mouse") ? e.pageX : e.touches[0].clientX;
         previousTranslate = -currentIndex * cardWidth;
@@ -79,6 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const handleTouchEnd = () => {
+        if (!isDragging) return;
         isDragging = false;
         const movedBy = currentTranslate - previousTranslate;
         if (movedBy < -50 && currentIndex < cards.length - 1) {

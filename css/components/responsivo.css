@@ -77,7 +77,7 @@
 
     .banner-section .banner-content {
         position: absolute;
-        top: 25vh;
+        top: 40vw;
         left: 5vw;
         width: 90vw;
     }
@@ -97,10 +97,11 @@
     }
 
     .banner-section .banner-carousel {
-        top: 85vh;
+        top: 150vw;
         width: 98vw;
         position: absolute;
         left: 1vw;
+        z-index: 3;
     }
 
     .main-section {
@@ -175,7 +176,7 @@
     .content-atendimento img {
         width: 100vw;
         position: absolute;
-        top: -17vh;
+        top: -30vw;
         z-index: 0;
     }
 
@@ -188,7 +189,7 @@
         font-weight: 300;
         font-size: 3vw;
         line-height: 4.5vw;
-        margin-top: 45vh;
+        margin-top: 105vw;
     }
 
     .content-atendimento .atendimento-text .main-button {

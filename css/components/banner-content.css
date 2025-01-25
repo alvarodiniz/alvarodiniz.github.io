@@ -5,7 +5,6 @@
     z-index: 1;
     position: absolute;
     top: 236px;
-    left: 470px;
   }
 
   .banner-content .main-title {
@@ -52,7 +51,7 @@
   text-align: justify;
   justify-content: end;
   width: 300px;
-  left: 100px;
+  left: 10vw;
   top: 200px;
   color: white;
 }

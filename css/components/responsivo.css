@@ -98,10 +98,8 @@
     }
 
     .banner-section .banner-carousel {
-        width: 98vw;
-        top: 90vh;
-        left: 1vw;
         transition: all 0s linear;
+        scale: 0.92;
     }
 
     .main-section {

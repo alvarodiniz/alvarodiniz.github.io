@@ -16,7 +16,7 @@
 .service-carousel .service-card {
   flex: 0 0 auto;
   /* Garante que cada card mantenha seu tamanho */
-  width: 410px;
+  width: 390px;
   /* Ajuste conforme o tamanho desejado */
 }
 
@@ -45,11 +45,9 @@
 /*BANNER*/
 
 .banner-carousel {
-  width: 92%;
-  left: 4%;
   overflow: hidden;
-  position: absolute;
-  bottom: -400px;
+  margin-top: 80px;
+  width: 95vw;
 }
 
 .banner-carousel .track {

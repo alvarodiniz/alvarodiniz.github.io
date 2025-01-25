@@ -133,7 +133,8 @@
     }
 
     .content-sobre .text-sobre p {
-            font-size: 5vw;
+            font-size: 3vw;
+            line-height: 4.5vw;
             font-family: 'Oswald', sans-serif;
             font-weight: 300;
     }
@@ -179,7 +180,8 @@
         line-height: 4vh;
         font-family: 'Oswald', sans-serif;
         font-weight: 300;
-        font-size: 5vw;
+        font-size: 3vw;
+        line-height: 4.5vw;
     }
 
     .content-atendimento .atendimento-text .main-button {
@@ -205,7 +207,8 @@
         padding: 5vw;
         font-family: 'Oswald', sans-serif;
         font-weight: 300;
-        font-size: 5vw;
+        font-size: 3vw;
+        line-height: 4.5vw;
       }
 
       .-tratamentos {
@@ -219,7 +222,8 @@
         text-align: justify;
         font-family: 'Oswald', sans-serif;
         font-weight: 300;
-        font-size: 5vw;
+        font-size: 3vw;
+        line-height: 4.5vw;
       }
     
     .main-footer {

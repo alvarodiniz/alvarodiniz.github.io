@@ -4,11 +4,11 @@
 }
 
 .content-atendimento .atendimento-text {
-    width: 600px;
+    width: 1200px;
     color: white;
     font-size: 28px;
     line-height: 32px;
-    
+    margin-top: 50px;
 }
 
 .content-atendimento .atendimento-text ul {
@@ -29,11 +29,14 @@
 
 .main-section.-atendimento .atendimento-online {
     height: 400px;
+    width: 80vw;
+    background-size: cover;
     background-image: url(../../assets/img/sala\ de\ casa.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .content-atendimento .atendimento-text .main-button {

@@ -1,7 +1,6 @@
 .content-sobre {
     display: flex;
     gap: 20px;
-    margin-top: 360px;
 }
 
 .content-sobre .photo {

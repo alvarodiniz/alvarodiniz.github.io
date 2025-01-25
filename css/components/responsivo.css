@@ -72,6 +72,14 @@
         justify-content: center;
     }
 
+    .video-background {
+        position: relative;
+        width: 100%;
+        height: 280vw;
+        min-height: 120vh;
+        max-height: 180vh;
+      }
+
     .banner-section .quote {
         display: none;
     }

@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="css/components/faq-content.css">
   <link rel="stylesheet" href="css/components/responsivo.css">
   <link rel="stylesheet" href="css/components/main-txt.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -365,7 +367,7 @@
               event.preventDefault(); // Previne o recarregamento da página
       
               // Envia o e-mail usando EmailJS
-              emailjs.sendForm("alvarodiniz.psi", "alvaro-forms", this)
+              emailjs.sendForm("alvarodiniz", "alvaroforms", this)
                   .then(function () {
                       alert("Mensagem enviada com sucesso!");
                   }, function (error) {

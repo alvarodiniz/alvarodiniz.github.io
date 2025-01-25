@@ -99,8 +99,15 @@
 
     .banner-section .banner-carousel {
         transition: all 0s linear;
-        scale: 0.92;
     }
+
+    .banner-carousel .service-card {
+        flex: 0 0 auto;
+        /* Garante que cada card mantenha seu tamanho */
+        width: 70vw;
+        height: 90vw;
+        /* Ajuste conforme o tamanho desejado */
+      }
 
     .main-section {
         width: 100%;
